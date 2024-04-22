@@ -1,0 +1,16 @@
+[telegram]
+bot_api_key = '6573985589:AAGmwo5CHAuuD0RbopkWIf42_U3mLzKn5RY'
+status_chat_id = "-1002033317084"
+alert_chat_id = "-1002033317085"
+
+[server]
+port = 5000
+debug = true
+
+[apibara]
+url = "mainnet.starknet.a5a.ch"
+token = "dna_OuqPARXJbKrHK0SAczaO"
+
+[starknet]
+url = "mainnet.starknet.a5a.ch"
+chainId = "SN_MAIN"

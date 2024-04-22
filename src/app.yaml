@@ -1,0 +1,13 @@
+runtime: python39
+entrypoint: gunicorn -w 4 -b :$PORT app:app
+env_variables:
+  TELEGRAM_TOKEN: "6573985589:AAGmwo5CHAuuD0RbopkWIf42_U3mLzKn5RY"
+  CHAT_ID: "-4146811550"
+automatic_scaling:
+  target_cpu_utilization: 65
+  min_instances: 1
+  max_instances: 5
+
+handlers:
+  - url: /.*
+    script: auto
