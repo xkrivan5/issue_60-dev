@@ -1,0 +1,18 @@
+[telegram]
+bot_api_key = '6573985589:AAGmwo5CHAuuD0RbopkWIf42_U3mLzKn5RY'
+status_chat_id = "-1002033317084"
+alert_chat_id = "-1002033317085"
+
+[server]
+port = 5000
+debug = true
+
+[apibara]
+url = "mainnet.starknet.a5a.ch"
+token = "dna_OuqPARXJbKrHK0SAczaO"
+
+[starknet]
+url = "mainnet.starknet.a5a.ch"
+chainId = "SN_MAIN"
+gov_contract_address = "0x65b1d7bff4ff5ecfbef364b829d42aee0429e4a0be6190275635d9a3938946a"
+ERC20 = "0x2b91dd683bc4bcae7a9c5d0cbeba0e8d62fa657742e4640f1e8163dc10e9bd7"
